@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programación Web — Versión IA</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/711/711284.png" type="image/x-icon">
+  
+  <!-- Bootstrap 5 + Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <!-- Navbar con gradiente y sombras -->
+  <nav class="navbar navbar-expand-lg bg-dark bg-gradient navbar-dark shadow-sm sticky-top">
+    <div class="container py-2">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+        <i class="bi bi-cpu"></i>
+        <span>Acerca de mi</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">
+              <i class="bi bi-house-door me-1"></i>Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">
+              <i class="bi bi-envelope me-1"></i>Contacto
+            </a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-outline-light rounded-pill px-4 py-2" href="#">
+              <i class="bi bi-person-lines-fill me-2"></i>Perfil
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="container my-5">
+    <div class="p-4 p-md-5 rounded-5 bg-white shadow-sm text-center">
+      <h1 class="display-6 fw-bold mb-2">José Luis Holtman de León</h1>
+      <p class="lead text-secondary mb-0">Ingeniería en Sistemas — Universidad Mesoamericana (VI Semestre)</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row g-4">
+      <!-- Panel lateral -->
+      <aside class="col-12 col-lg-4">
+        <div class="d-grid gap-4">
+          <!-- Estudios -->
+          <div class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <i class="bi bi-mortarboard fs-4 text-primary"></i>
+                <h2 class="h5 m-0">Estudios</h2>
+              </div>
+              <ul class="mb-0 ps-3">
+                <li>Universidad Mesoamericana - VI Semestre</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Lenguajes -->
+          <div class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <i class="bi bi-translate fs-4 text-success"></i>
+                <h2 class="h5 m-0">Lenguajes</h2>
+              </div>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-secondary rounded-pill px-3 py-2">Español</span>
+                <span class="badge text-bg-secondary rounded-pill px-3 py-2">Inglés (Duolingo)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pasatiempos -->
+          <div class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <i class="bi bi-joystick fs-4 text-warning"></i>
+                <h2 class="h5 m-0">Pasatiempos</h2>
+              </div>
+              <ul class="ps-3 mb-2">
+                <li>Escribir</li>
+                <li>Ver al FC Barcelona</li>
+                <li>Jugar Minecraft</li>
+                <li>Bandas como:</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light border rounded-pill px-3 py-2">TV Girl</span>
+                <span class="badge text-bg-light border rounded-pill px-3 py-2">The Beatles</span>
+                <span class="badge text-bg-light border rounded-pill px-3 py-2">Nirvana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Información principal -->
+      <section class="col-12 col-lg-5">
+        <div class="vstack gap-4">
+          <!-- Sobre la ingeniería -->
+          <article class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4 p-md-5">
+              <h2 class="h4 mb-3 text-center">Sobre la ingeniería..</h2>
+              <p class="mb-0 lh-lg">
+                Desde los 11 años sabía que quería ser ingeniero en sistemas. Todo empezó por un buen amigo con el cual jugaba Minecraft en quinto de primaria. Nos gustaba tanto el juego que, eventualmente, surgió la pregunta: ¿cómo se hacen los videojuegos? Una búsqueda rápida nos llevó a la programación. La segunda pregunta fue obvia: ¿cómo programo mi propio videojuego?... El resto es historia. Ya me encuentro en el VI semestre de la carrera que siempre quise, y las decisiones que he ido tomando en el camino han sido para culminar la meta que un día, con 11 años, me propuse. Hoy, viendo hacia atrás, estoy muy cerca.
+              </p>
+            </div>
+          </article>
+
+          <!-- Mi trabajo -->
+          <article class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4 p-md-5">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-briefcase fs-5 text-primary"></i>
+                <h2 class="h4 m-0">Mi trabajo</h2>
+              </div>
+              <p class="mb-0 lh-lg">
+                He tenido muchos trabajos informales durante mis años de adolescencia, como bartender, mesero y diseñador de publicidad para tiendas en línea. Actualmente, llevo ya tres años y medio trabajando de manera formal en una empresa; este empleo me ha permitido continuar con mis estudios universitarios. Sin embargo, ahora estoy buscando un trabajo más relacionado con mi carrera. Por mis horarios ha sido complicado, pero sigo en la lucha.
+              </p>
+            </div>
+          </article>
+
+          <!-- Tiempo libre -->
+          <article class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4 p-md-5">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-clock-history fs-5 text-danger"></i>
+                <h2 class="h4 m-0">Tiempo libre</h2>
+              </div>
+              <p class="lh-lg">
+                Bueno, actualmente ya no me queda tanto tiempo libre. Prácticamente, tengo que levantarme a las 5 de la mañana para estar en la universidad a las 7:30. Mis clases terminan a las 12 del mediodía y, a las 2 de la tarde, tengo que estar en el trabajo. Salgo de trabajar a las 9 de la noche.
+              </p>
+              <p class="lh-lg">
+                Generalmente, lo que hago en mi tiempo libre es escuchar música. Últimamente he estado escuchando un poco de rap underground mexicano, para variar un poco de todo lo que suelo oír —generalmente escucho boleros—. También escribo de vez en cuando, cada vez que me llega la inspiración.
+              </p>
+              <p class="mb-0 lh-lg">
+                Soy una persona bastante hogareña. Me gusta estar en casa, aunque parezca raro. Me gusta ordenar y doblar ropa; creo que eso me calma bastante, sobre todo cuando tengo pensamientos desordenados. También me interesa, en general, todo lo que tenga que ver con la cultura de internet. En su momento, llegué a ser bastante activo en chanes como Hispachan y 4chan.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Multimedia -->
+      <aside class="col-12 col-lg-3">
+        <div class="vstack gap-4">
+          <!-- Video -->
+          <div class="card border-0 shadow-sm rounded-5 overflow-hidden">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="h5 m-0">Video</h3>
+                <i class="bi bi-play-circle fs-4 text-danger"></i>
+              </div>
+              <p class="fst-italic">Este video es de mi canción favorita de una de mis bandas favoritas: TV Girl</p>
+              <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+                <video controls loop>
+                  <source src="https://devnode.online/ytdl.canehill.info%20-%20TV%20Girl%20-%20Lovers%20Rock%20(480p).mp4" type="video/mp4">
+                  Tu navegador no soporta la etiqueta de video.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <!-- Imagen -->
+          <div class="card border-0 shadow-sm rounded-5">
+            <div class="card-body p-4 text-center">
+              <div class="d-flex align-items-center justify-content-center gap-2 mb-2">
+                <i class="bi bi-image fs-4 text-info"></i>
+                <h3 class="h5 m-0">Imagen</h3>
+              </div>
+              <p class="fst-italic">Mi escritor favorito, Roberto Bolaño, fumando un cigarro.</p>
+              <img class="img-fluid rounded-4 shadow-sm" src="https://elcafelatino.org/wp-content/uploads/2022/10/Basso-Cannarsa-1.jpg" alt="Roberto Bolaño">
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- CTA -->
+    <section class="my-5">
+      <div class="p-4 p-md-5 rounded-5 shadow-sm bg-white d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+        <div>
+          <h4 class="mb-1">¿Te gustó el diseño?</h4>
+          <p class="text-secondary mb-0">Demasiado ordenado, simétrico y con sombras... definitivamente suena a IA.</p>
+        </div>
+        <div class="d-flex gap-2">
+          <a class="btn btn-primary rounded-pill px-4" href="#">
+            <i class="bi bi-hand-thumbs-up me-2"></i>Me gusta
+          </a>
+          <a class="btn btn-outline-secondary rounded-pill px-4" href="#">
+            <i class="bi bi-share me-2"></i>Compartir
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-end py-4 text-secondary">
+      <hr class="opacity-75">
+      <p class="mb-0 small">Fecha de última actualización: 03/08/2025</p>
+    </footer>
+  </main>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
